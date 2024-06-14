@@ -58,3 +58,8 @@ body {
 .tarjeta:hover a {
     color: rgb(123, 63, 136); 
 }
+
+
+.titulo{
+    font-weight: bold;
+}
