@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: rgb(174, 124, 174);
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    color: white;
+}
+
+.cabecera {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 50px;
+}
+
+.proyectos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 90%;
+    gap: 10%;
+}
+
+.tarjeta {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    gap: 3%;
+    padding: 20px;
+    transition: transform 0.25s, color 0.25s, background-color 0.25s;
+}
+
+.tarjeta a {
+    margin-top: 5%;
+    margin-bottom: 2.5%;
+    text-decoration: none;
+    color: rgb(80, 43, 80);
+}
+
+.tarjeta:hover {
+    transform: scale(1.05);
+    color: white;
+    background-color: rgb(216, 141, 229);
+}
+
+.tarjeta:hover a {
+    color: rgb(123, 63, 136); 
+}
